@@ -12,36 +12,38 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   overflow-x:auto;
+   
+   
 }
 
 .club .club_name{
    font-family: 'Bruno Ace SC', cursive;
-   font-size: 6vw;
+   font-size: 60px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   letter-spacing: ;
+   letter-spacing: 29.6px;
    color: white;
+}
+
+@media (min-width:360px) and (max-width:420px) {
+
+  .club .club_name{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 15px;
+    color: white;
+ }
+  
 }
 
 .club .club_type{
 
    font-family: 'Bruno Ace SC', cursive;
-   font-size: 7vw;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
-   letter-spacing: vw;
-   color: rgba(193, 139, 235, 0.80);
-}
-
-.club .college_name{
-
-   
-   font-family: Bruno Ace SC;
-   
-   font-size: 6vw;
+   font-size: 36px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
@@ -49,76 +51,209 @@
    color: rgba(193, 139, 235, 0.80);
 }
 
+@media (min-width:360px) and (max-width:420px) {
+
+  .club .club_type{
+
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.5 px;
+    color: rgba(193, 139, 235, 0.80);
+ }
+  
+}
+
+
+.club .college_name{
+
+   
+   font-family: Bruno Ace SC;
+   
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 7.2px;
+   color: rgba(193, 139, 235, 0.80);
+}
+
+@media (min-width:360px) and (max-width:420px) {
+
+  .club .college_name{
+
+   
+    font-family: Bruno Ace SC;
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    color: rgba(193, 139, 235, 0.80);
+ }
+  
+}
+
 .club{
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-  overflow-x:auto;
+   overflow-x:auto;
 }
 
 .agenda_page{
    width: 100%;
    height: 100vh;
    background: linear-gradient(135deg, #100031 9.90%, #320033 90.10%);
-   overflow-x:auto;
+   
 }
 
 .title{
   color: #88c7f1;
    font-family: Bruno Ace SC;
-   font-size: 6vw;
+   font-size: 60px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   letter-spacing: 1.2vw;
-   padding-top: 8vw;
-   padding-left: 10.5vw;
+   letter-spacing: 12px;
+   padding-top: 80px;
+   padding-left: 80px;
 
    
 
 }
+
+@media (min-width:360px) and (max-width:420px) {
+
+  .title{
+    color: #88c7f1;
+     font-family: Bruno Ace SC;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 6px;
+     padding-top: 40px;
+     padding-left: 40px;
+  
+  
+  }
+}
+
+
 
 .agenda_page .content{
    color: #FFF;
    font-family: Poppins;
-   font-size: 3vw;
+   font-size: 20px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   padding-top: 4vw;
+   padding-top: 20px;
    
 }
 
+@media (min-width:360px) and (max-width:420px) {
+
+  .agenda_page .content{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+    
+ }
+}
+
+
+
+
 .content .first_list{
    list-style: circle;
-   padding-left: 11.5vw;
-   padding-top: vw;
+   padding-left: 100px;
+   padding-top: 10px;
    line-height: 160%;
-   padding-right:50px;
+   padding-right: 50px;
+   
+}
+
+@media (min-width:360px) and (max-width:420px) {
+
+  .content .first_list{
+    list-style: circle;
+    padding-left: 50px;
+    padding-top: 5px;
+    line-height: 160%;
+    padding-right: 25px;
+    
+ }
 }
 
 
 .sub_list{
-   padding-left: 0.9vw;
+   padding-left: 60px;
    padding-top: 10px;
    color: #89AAEB;
    line-height: 180%;
    
 }
 
+
+@media (min-width:360px) and (max-width:420px) {
+
+  .sub_list{
+    padding-left: 30px;
+    padding-top: 5px;
+    color: #89AAEB;
+    line-height: 180%;
+    
+ }
+
+}
+
 .content .second_list{
    list-style: circle;
-   padding-left: 11.5vw;
+   padding-left: 100px;
    padding-top: 10px;
    line-height: 160%;
 }
 
+@media (min-width:360px) and (max-width:420px) {
+
+  .content .second_list{
+    list-style: circle;
+    padding-left: 50px;
+    padding-top: 5px;
+    line-height: 160%;
+ }
+
+}
+
+
+
 .content .third_list{
    list-style: circle;
-   padding-left: 11.5vw;
+   padding-left: 100px;
    padding-top: 10px;
    line-height: 160%;
+
+}
+
+@media (min-width:360px) and (max-width:420px) {
+
+  .content .third_list{
+    list-style: circle;
+    padding-left: 50px;
+    padding-top: 5px;
+    line-height: 160%;
+ 
+ }
 
 }
 
@@ -126,27 +261,48 @@
    width: 100%;
    height: 100vh;
    background: linear-gradient(135deg, #100031 9.90%, #320033 90.10%);
-   overflow-x:auto;
+   
+
 }
+
+
 
 .fifth_page .name{
   color: #88c7f1;
    font-family: Bruno Ace SC;
-   font-size: 6vw;
+   font-size: 40px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   letter-spacing: 1vw;
-   padding-top: 9vw;
-   padding-left: 9vw;
+   letter-spacing: 12px;
+   padding-top: 80px;
+   padding-left: 80px;
   
+}
+
+@media (min-width:360px) and (max-width:420px) {
+
+  .fifth_page .name{
+    color: #88c7f1;
+     font-family: Bruno Ace SC;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 6px;
+     padding-top: 40px;
+     padding-left: 40px;
+    
+  }
+  
+
 }
 
 .fifth_page .list{
 
    color: #FFF;
    font-family: Poppins;
-   font-size: 3vw;
+   font-size: 20px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
@@ -154,95 +310,288 @@
 
 }
 
-.list .list1{
-   padding-top: 14vw;
-   padding-left: 15vw;
-   line-height: 160%;
-   padding-right: 15vw;
+
+@media (min-width:360px) and (max-width:420px) {
+
+  .fifth_page .list{
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+ 
+ }
+  
 
 }
+
+.list .list1{
+   padding-top: 140px;
+   padding-left: 130px;
+   line-height: 160%;
+   padding-right: 150px;
+
+}
+
+
+@media (min-width:360px) and (max-width:420px) {
+
+  .list .list1{
+    padding-top: 70px;
+    padding-left: 60px;
+    line-height: 160%;
+    padding-right: 75px;
+ 
+ }
+  
+
+}
+
 .list p{
    color: #FFF;
    font-family: Poppins;
-   font-size: 4.5vw;
+   font-size: 30px;
    font-style: normal;
    font-weight: 600;
    line-height: 140%;
-   padding-left: 13.5vw;
-   padding-top: 10vw;
+   padding-left: 100px;
+   padding-top: 100px;
 }
+
+
+@media (min-width:360px) and (max-width:420px) {
+  .list p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    padding-left: 50px;
+    padding-top: 50px;
+ }
+  
+
+}
+
 
 .illustration img{
   height: 160px;
   margin-left: 1100px;
 }
 
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  .illustration {
+    margin-top: 80px;
+  }
+  
+    
+  
+  }
+
+
+@media (min-width:360px) and (max-width:420px) {
+  
+.illustration img{
+  height: 80px;
+  margin-left: 280px;
+}
+  
+
+}
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  .illustration {
+    
+    margin-top: 80px;
+  }
+    
+  
+  }
+
 .sixth_page{
   width: 100%;
   height: 100vh;
   background: linear-gradient(135deg, #100031 9.90%, #320033 90.10%);
-  overflow-x:auto;
+  
+ 
 }
 
 .qr_codebox{
-  height: 40vw;
-  width: 40vw;
+  height: 400px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: #000000;
   font-family: Poppins;
-  font-size: 2vw;
+  font-size: 25px;
   background-color: #f8f8f8;
   
-  margin-top: 5vw;
+  margin-top: 50px;
   letter-spacing: 1px;
 
   
 
 }
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  .qr_codebox{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 15px;
+    background-color: #f8f8f8;
+    
+    margin-top: 50px;
+    letter-spacing: 1px;
+  
+    
+  
+  }
+    
+  
+  }
+
+
 .qr_codebox .group_type{
-  font-size: 2vw;
-  padding-bottom: 2vw;
+  font-size: 15px;
+  padding-bottom: 5px;
 }
+
+
+
+
 .qr_codebox .image img{
-  height: 20vw;
+  height: 200px;
 }
+
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  .qr_codebox .image img{
+    height: 150px;
+  }
+  
+  
+  }
+
+
 
 .code_box{
   display: flex;
   justify-content: center;
   align-items: center;
+  
 
 }
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  .qr_codebox {
+    margin-top: 120px;
+  }
+  
+  
+  }
+
 
 .whatsapp_qr{
 
   color: #88c7f1;
    font-family: Bruno Ace SC;
-   font-size: 5vw;
+   font-size: 40px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   letter-spacing: 8px;
-   padding-top: 8vw;
-   padding-left: 8vw;
+   letter-spacing: 12px;
+   padding-top: 80px;
+   padding-left: 80px;
    
   
 }
 
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  .whatsapp_qr{
+
+    color: #88c7f1;
+     font-family: Bruno Ace SC;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 6px;
+     padding-top: 40px;
+     padding-left: 40px;
+     
+    
+  }
+    
+  
+  }
+
 .illustration2 img{
-  height: 16vw;
+  height: 120px;
   
   
 }
+
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  .illustration2 {
+    margin-top: 100px;
+  }
+    
+  
+  }
+
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  .illustration2 img{
+    height: 60px;
+  }
+    
+  
+  }
+
+ 
 
 .illustration2new img{
-  height: 18vw;
-  margin-bottom: 50vw;
+  height: 180px;
+  margin-bottom: 50px;
 
 }
+
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  .illustration2new img{
+    height: 90px;
+    margin-bottom: 50px;
+  
+  }
+  
+  }
+
+
+
 
 
 
@@ -253,60 +602,147 @@
   width: 100%;
   height: 100vh;
   background: linear-gradient(135deg, #100031 9.90%, #320033 90.10%);
-  overflow-x:auto;
+  
  
 }
 
 .qr_codebox2{
-  height: 45vw;
-  width: 40vw;
+  height: 400px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: #000000;
   font-family: Poppins;
-  font-size: 3vw;
+  font-size: 25px;
   background-color: #ffffff ;
-  margin-top: 5vw ;
+  margin-top: 50px ;
   letter-spacing: 1px;
 
   
 
 }
+
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  
+.qr_codebox2{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000000;
+  font-family: Poppins;
+  font-size: 15px;
+  background-color: #ffffff ;
+  margin-top: 50px ;
+  letter-spacing: 1px;
+
+  
+
+}
+  }
+
+
 .qr_codeboxnew .group_type{
   font-size: 15px;
   padding-bottom:10px;
 }
 .qr_codebox2 .image img{
-  height: 30vw;
-  padding-top: 1vw;
+  height: 200px;
+  padding-top: 10px;
 }
+
+
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  
+  .qr_codebox2 .image img{
+    height: 150px;
+    padding-top: 10px;
+  }
+
+    }
+  
+
 
 .code_boxnew{
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
+
+
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  
+  .qr_codebox2 {
+    margin-top: 100px;
+  }
+
+    }
+
 
 .insta_qr{
 
    color: #88c7f1;
    font-family: Bruno Ace SC;
-   font-size: 5vw;
+   font-size: 40px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   letter-spacing: 9px;
-   padding-top: 8vw;
-   padding-left: 8vw;
+   letter-spacing: 12px;
+   padding-top: 80px;
+   padding-left: 80px;
   
 }
 
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  
+  .insta_qr{
+
+    color: #88c7f1;
+    font-family: Bruno Ace SC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6px;
+    padding-top: 40px;
+    padding-left: 40px;
+   
+ }
+
+    }
+
+
 .illustration3 img{
-  height: 20vw;
-  margin-left:3vw;
+  height: 120px;
+  margin-left: 1200px;
 }
+
+.illustration3{
+  margin-top: 100px;
+}
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  
+  .illustration3 img{
+    height: 60px;
+    margin-left: 260px;
+  }
+
+    }
 
 .eight_page{
 
@@ -318,31 +754,64 @@
    justify-content: center;
    align-items: center;
    overflow-x:auto;
+
 }
 
 .thankyou_page h1{
   font-family: 'Bruno Ace SC', cursive;
-   font-size: 6vw;
+   font-size: 60px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   letter-spacing: 2.96vw;
+   letter-spacing: 29.6px;
    color: white;
 
 }
+
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  
+  .thankyou_page h1{
+    font-family: 'Bruno Ace SC', cursive;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 15px;
+     color: white;
+  
+  }
+
+    }
+
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 svg {
   font-family: "Poppins", sans-serif;
-  width: 120vw ;height: 100%;
+  width: 800px ;height: 100%;
 }
 svg text {
   animation: stroke 3s infinite alternate;
   stroke-width: 2;
   stroke: #365FA0;
-  font-size: 14vw;
+  font-size: 100px;
 }
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  
+  svg text {
+    animation: stroke 3s infinite alternate;
+    stroke-width: 2;
+    stroke: #365FA0;
+    font-size: 50px;
+  }
+
+    }
+
+
 @keyframes stroke {
   0%   {
      fill: rgba(255,255,255,0); stroke: rgba(95, 195, 229, 0.859);
@@ -357,27 +826,49 @@ svg text {
 }
 
 
+
+
+
 .third_page{
 
   background: url(background.jpg) center no-repeat;
    background-size:cover ;
    width: 100%;
    height: 100vh;
-   overflow-x:auto;
+   
+
 }
 
 .third_page h2{
   color: #88c7f1;
    font-family: Bruno Ace SC;
-   font-size: 4vw;
+   font-size: 30px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   letter-spacing: 1vw;
-   padding-top: 5vw;
-   padding-left: 5vw;
+   letter-spacing: 12px;
+   padding-top: 50px;
+   padding-left: 50px;
   
 }  
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  
+  .third_page h2{
+     color: #88c7f1;
+     font-family: Bruno Ace SC;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 6px;
+     padding-top: 50px;
+     padding-left: 50px;
+    
+  }  
+
+    }
 
 .cord_page{
   display: flex;
@@ -388,35 +879,83 @@ svg text {
 .cordimg_box{
   display: flex;
   flex-direction: column;
-  width:100vw;
+  width: 800px;
+  
   
 }
+
+@media (min-width:360px) and (max-width:420px) {
+  
+  
+  .cordimg_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-top: 80px;
+    
+  }
+
+    }
+
+
+
+
 
 .cordimg_box .first_row{
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top:6vw;
+  margin-top:60px;
 
 }
+@media (min-width:360px) and (max-width:420px){
+  .first_row .img img{
 
+    height: 80px;
+
+  }
+}
 .cordimg_box .second_row{
 
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 2vw;
+  margin-top: 20px;
+}
+
+
+
+@media (min-width:360px) and (max-width:420px){
+  .second_row .img img{
+
+    height: 80px;
+
+  }
 }
 
 .name{
-  padding: 2vw;
+  padding: 20px;
   color: white;
-  font-size: 3vw;
+  font-size: 24px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   
 
+}
+
+@media (min-width:360px) and (max-width:420px){
+  .name{
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    
+  
+  }
 }
 
 .fourth_page{
@@ -425,21 +964,38 @@ svg text {
    background-size:cover ;
    width: 100%;
    height: 100vh;
-   overflow-x:auto;
+   
+
 }
 
 .fourth_page h2{
   color: #88c7f1;
    font-family: Bruno Ace SC;
-   font-size: 4vw;
+   font-size: 30px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   letter-spacing: 1.2vw;
-   padding-top: 5vw;
-   padding-left: 5vw;
+   letter-spacing: 12px;
+   padding-top: 50px;
+   padding-left: 50px;
   
 }  
+
+@media (min-width:360px) and (max-width:420px){
+  .fourth_page h2{
+    color: #88c7f1;
+     font-family: Bruno Ace SC;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 3px;
+     padding-top: 50px;
+     padding-left: 25px;
+    
+  }  
+}
+
 
 .subcord_page{
   display: flex;
