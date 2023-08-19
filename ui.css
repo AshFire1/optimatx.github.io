@@ -1069,6 +1069,12 @@
    margin-top:3.75rem;
  
  }
+ .first_row .img img{
+ 
+  height: 160px;
+
+}
+ 
  @media (min-width:360px) and (max-width:420px){
    .first_row .img img{
  
@@ -1084,7 +1090,9 @@
    margin-top: 1.25rem;
  }
  
- 
+ .second_row .img img{
+  height: 160px;
+ }
  
  @media (min-width:360px) and (max-width:420px){
    .second_row .img img{
